@@ -1,0 +1,83 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+.header .logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header .nav {
+  display: flex;
+  gap: 15px;
+}
+
+.header .nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header .nav a:hover {
+  color: #d4d4d4;
+}
+
+.header .search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.header .search-bar input {
+  padding: 5px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.header .search-bar button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+.header .search-bar button:hover {
+  background-color: #0056b3;
+}
+
+.header .auth-links a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.header .auth-links a:hover {
+  color: #d4d4d4;
+}
+
+.header .cart-icon {
+  position: relative;
+  cursor: pointer;
+}
+
+.header .cart-icon .fa-shopping-cart {
+  font-size: 24px;
+}
+
+.header .cart-icon .badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: #dc3545;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 12px;
+}

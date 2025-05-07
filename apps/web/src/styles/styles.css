@@ -1,0 +1,95 @@
+/* Base styles for the application */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .nav a {
+  color: #ffffff;
+  margin: 0 10px;
+}
+
+.header .nav a:hover {
+  color: #d4d4d4;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 5px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+.search-bar button:hover {
+  background-color: #0056b3;
+}
+
+.cart-icon {
+  position: relative;
+}
+
+.cart-icon .badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: #dc3545;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 12px;
+}
