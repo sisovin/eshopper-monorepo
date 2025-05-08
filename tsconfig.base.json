@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@shared-interfaces/*": ["libs/shared-interfaces/*"],
+      "@shared-utils/*": ["libs/shared-utils/*"]
+    }
+  }
+}
