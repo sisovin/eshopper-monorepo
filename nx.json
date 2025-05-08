@@ -1,0 +1,29 @@
+{
+  "npmScope": "eshopper",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.base.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "api": {
+      "tags": []
+    },
+    "web": {
+      "tags": []
+    },
+    "shared-interfaces": {
+      "tags": []
+    },
+    "shared-utils": {
+      "tags": []
+    },
+    "cart": {
+      "tags": []
+    }
+  }
+}
